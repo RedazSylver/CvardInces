@@ -1,11 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Laura C. Guerra A.
-N:Guerra A.;Laura;C.;;
+FN:Wuikelman Angel Paredes 
+N: Paredes;Wuikelman Angel;;
 TITLE:Presidenta del Banco Central de Venezuela
-ORG:Banco Central de Venezuela
+ORG:Instituto Nacional de Capacitación y Educación Socialista (INCES)
 TEL;TYPE=CELL,VOICE:+584201234567
 EMAIL:abc@abcmail.com
-URL;TYPE=LinkedIn:https://linkedin.com/in/tu-perfil
-URL;TYPE=Homepage:https://tu-pagina-personal.com
+URL;TYPE=Homepage:https://inces.gob.ve/
 END:VCARD
