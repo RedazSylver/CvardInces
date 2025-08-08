@@ -1,0 +1,131 @@
+/* Estilos generales y fondo */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #f0f0f0;
+    background-color: #000000; /* Color de respaldo */
+    background-image: linear-gradient(180deg, #040c1a 0%, #0c1d4b 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal de la tarjeta */
+.card-container {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(13, 37, 63, 0.2); /* Fondo semitransparente para dar profundidad */
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Foto de perfil circular */
+.profile-picture {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #a0c3ff; /* Un azul claro que resalta */
+    margin: 5px 0 25px 0;
+}
+
+/* Biografía */
+.bio {
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* Información de contacto (email y teléfono) */
+.contact-info {
+    margin-bottom: 30px;
+}
+.contact-info p {
+    margin: 8px 0;
+}
+.contact-info a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1em;
+    transition: opacity 0.3s ease;
+}
+.contact-info a:hover {
+    opacity: 0.7;
+}
+.contact-info i {
+    margin-right: 10px;
+    color: #a0c3ff;
+}
+
+/* Contenedor de botones de redes sociales */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* Estilo de los botones de redes sociales */
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.social-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #ffffff;
+}
+.social-button i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+/* Botón principal para agregar a contactos (vCard) */
+.vcard-button {
+    display: inline-block;
+    background-color: #2a7de1; /* Un azul brillante para el botón principal */
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 50px; /* Forma de píldora */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 15px rgba(42, 125, 225, 0.4);
+}
+.vcard-button:hover {
+    background-color: #1a69ca;
+    transform: translateY(-2px);
+}
+.vcard-button i {
+    margin-right: 10px;
+}
