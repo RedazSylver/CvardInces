@@ -5,7 +5,7 @@ body {
     padding: 20px;
     color: #f0f0f0;
     background-color: #000000; /* Color de respaldo */
-    background-image: linear-gradient(180deg, #040c1a 0%, #0c1d4b 100%);
+    background-image: linear-gradient(180deg, #003241 0%, #0e9ec0 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
@@ -128,4 +128,5 @@ body {
 }
 .vcard-button i {
     margin-right: 10px;
+
 }
